@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(238, 238, 238);
+}
+
+table tr th:nth-last-child(1){
+  color: rgb(35, 35, 112);
+  border-bottom: 3px solid rgb(35, 35, 112);
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 80px;
+  border-radius: 5px;
+}
+
+table tr th:nth-last-child(2) {
+  color: rgb(35, 35, 112);
+  border-right: 3px solid rgb(35, 35, 112);
+  border-radius: 5px;
+  font-size: 50px;
+}
+
+table td {
+  color: rgb(35, 35, 112);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  vertical-align: top;
+  padding: 30px;
+  border: 20px;
+  border-collapse: collapse;
+}
